@@ -379,21 +379,21 @@ eConnect eClear SDK with access to Publish, RPC and Server Callback hooks
 
 ##### Summary
 
-eClear publish out message infrastructure
+eClear publish out message infrastructure [IeClearPublishSdk](#T-eClearSdk-IeClearPublishSdk 'eClearSdk.IeClearPublishSdk')
 
 <a name='P-eClearSdk-IeClearSdk-Rpc'></a>
 ### Rpc `property`
 
 ##### Summary
 
-eClear RPC Infrastructure
+eClear RPC Infrastructure [IeClearRpcSdk](#T-eClearSdk-IeClearRpcSdk 'eClearSdk.IeClearRpcSdk')
 
 <a name='P-eClearSdk-IeClearSdk-Subscribe'></a>
 ### Subscribe `property`
 
 ##### Summary
 
-eClear data subscription services
+eClear data subscription services [IeClearSubscribeSdk](#T-eClearSdk-IeClearSubscribeSdk 'eClearSdk.IeClearSubscribeSdk')
 
 <a name='M-eClearSdk-IeClearSdk-ServerReady'></a>
 ### ServerReady() `method`
