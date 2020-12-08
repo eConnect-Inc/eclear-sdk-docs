@@ -361,7 +361,7 @@ eConnect eClear RPC calls. These functions will execute and give a result
 
 ##### Summary
 
-Person management RPC interface calls
+Person management RPC interface calls [IRpcPersonManagement](#T-eClearSdk-v1-PersonManagement-IRpcPersonManagement 'eClearSdk.v1.PersonManagement.IRpcPersonManagement')
 
 <a name='T-eClearSdk-IeClearSdk'></a>
 ## IeClearSdk `type`
