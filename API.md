@@ -481,6 +481,12 @@ eClearSdk.Common
 
 The optional type is used to differentiate between not set and set input values.
 
+##### Generic Types
+
+| Name | Description |
+| ---- | ----------- |
+| T | The optional data type |
+
 <a name='M-eClearSdk-Common-Optional`1-#ctor-`0-'></a>
 ### #ctor(value) `constructor`
 
