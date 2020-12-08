@@ -1335,7 +1335,7 @@ Get the FaceRec SDK with the RabbitMqCredentials, typically received by the Mesh
 
 ##### Returns
 
-
+Ready eConnect Sdk [IeClearSdk](#T-eClearSdk-IeClearSdk 'eClearSdk.IeClearSdk')
 
 ##### Parameters
 
@@ -1354,7 +1354,7 @@ if the object is already created.
 
 ##### Returns
 
-
+Ready eConnect Sdk [IeClearSdk](#T-eClearSdk-IeClearSdk 'eClearSdk.IeClearSdk')
 
 ##### Parameters
 
@@ -1394,7 +1394,7 @@ object to managed as a single object throughout the application, which will redu
 
 ##### Returns
 
-Read eConnect Sdk
+Ready eConnect Sdk [IeClearSdk](#T-eClearSdk-IeClearSdk 'eClearSdk.IeClearSdk')
 
 ##### Parameters
 
@@ -1412,7 +1412,7 @@ object to managed as a single object throughout the application, which will redu
 
 ##### Returns
 
-Read eConnect Sdk
+Ready eConnect Sdk [IeClearSdk](#T-eClearSdk-IeClearSdk 'eClearSdk.IeClearSdk')
 
 ##### Parameters
 
@@ -1430,7 +1430,7 @@ object to managed as a single object throughout the application, which will redu
 
 ##### Returns
 
-Read eConnect Sdk
+Ready eConnect Sdk [IeClearSdk](#T-eClearSdk-IeClearSdk 'eClearSdk.IeClearSdk')
 
 ##### Parameters
 
@@ -1448,7 +1448,7 @@ object to managed as a single object throughout the application, which will redu
 
 ##### Returns
 
-Read eConnect Sdk
+Ready eConnect Sdk [IeClearSdk](#T-eClearSdk-IeClearSdk 'eClearSdk.IeClearSdk')
 
 ##### Parameters
 

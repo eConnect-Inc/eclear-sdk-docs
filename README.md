@@ -1,3 +1,4 @@
 Getting Started 
 
-[API Reference](API.md)
+
+[Sdk Reference](Sdk.md)
