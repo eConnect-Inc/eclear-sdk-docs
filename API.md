@@ -61,8 +61,6 @@
   - [PersonTemperatureHigh](#P-eClearSdk-v1-Face-eClearFaceAttributesItem-PersonTemperatureHigh 'eClearSdk.v1.Face.eClearFaceAttributesItem.PersonTemperatureHigh')
   - [ePassResult](#P-eClearSdk-v1-Face-eClearFaceAttributesItem-ePassResult 'eClearSdk.v1.Face.eClearFaceAttributesItem.ePassResult')
 - [eClearFaceItem](#T-eClearSdk-v1-Face-eClearFaceItem 'eClearSdk.v1.Face.eClearFaceItem')
-  - [BusType](#F-eClearSdk-v1-Face-eClearFaceItem-BusType 'eClearSdk.v1.Face.eClearFaceItem.BusType')
-  - [RoutingKey](#F-eClearSdk-v1-Face-eClearFaceItem-RoutingKey 'eClearSdk.v1.Face.eClearFaceItem.RoutingKey')
   - [Attributes](#P-eClearSdk-v1-Face-eClearFaceItem-Attributes 'eClearSdk.v1.Face.eClearFaceItem.Attributes')
   - [DateTimeUtc](#P-eClearSdk-v1-Face-eClearFaceItem-DateTimeUtc 'eClearSdk.v1.Face.eClearFaceItem.DateTimeUtc')
   - [Device](#P-eClearSdk-v1-Face-eClearFaceItem-Device 'eClearSdk.v1.Face.eClearFaceItem.Device')
@@ -71,12 +69,9 @@
   - [Person](#P-eClearSdk-v1-Face-eClearFaceItem-Person 'eClearSdk.v1.Face.eClearFaceItem.Person')
   - [QrData](#P-eClearSdk-v1-Face-eClearFaceItem-QrData 'eClearSdk.v1.Face.eClearFaceItem.QrData')
   - [ServerInfo](#P-eClearSdk-v1-Face-eClearFaceItem-ServerInfo 'eClearSdk.v1.Face.eClearFaceItem.ServerInfo')
-  - [GenerateGlobalRoutingKey()](#M-eClearSdk-v1-Face-eClearFaceItem-GenerateGlobalRoutingKey 'eClearSdk.v1.Face.eClearFaceItem.GenerateGlobalRoutingKey')
-  - [GenerateRoutingKey()](#M-eClearSdk-v1-Face-eClearFaceItem-GenerateRoutingKey 'eClearSdk.v1.Face.eClearFaceItem.GenerateRoutingKey')
 - [eClearFacePhotoItem](#T-eClearSdk-v1-PersonManagement-eClearFacePhotoItem 'eClearSdk.v1.PersonManagement.eClearFacePhotoItem')
   - [ImageData](#P-eClearSdk-v1-PersonManagement-eClearFacePhotoItem-ImageData 'eClearSdk.v1.PersonManagement.eClearFacePhotoItem.ImageData')
 - [eClearGetAllByExternalIdKeyRequestItem](#T-eClearSdk-v1-PersonManagement-Query-eClearGetAllByExternalIdKeyRequestItem 'eClearSdk.v1.PersonManagement.Query.eClearGetAllByExternalIdKeyRequestItem')
-  - [RoutingKey](#F-eClearSdk-v1-PersonManagement-Query-eClearGetAllByExternalIdKeyRequestItem-RoutingKey 'eClearSdk.v1.PersonManagement.Query.eClearGetAllByExternalIdKeyRequestItem.RoutingKey')
   - [Key](#P-eClearSdk-v1-PersonManagement-Query-eClearGetAllByExternalIdKeyRequestItem-Key 'eClearSdk.v1.PersonManagement.Query.eClearGetAllByExternalIdKeyRequestItem.Key')
 - [eClearGetAllByExternalIdKeyResponseItem](#T-eClearSdk-v1-PersonManagement-Query-eClearGetAllByExternalIdKeyResponseItem 'eClearSdk.v1.PersonManagement.Query.eClearGetAllByExternalIdKeyResponseItem')
   - [Values](#P-eClearSdk-v1-PersonManagement-Query-eClearGetAllByExternalIdKeyResponseItem-Values 'eClearSdk.v1.PersonManagement.Query.eClearGetAllByExternalIdKeyResponseItem.Values')
@@ -134,7 +129,6 @@
   - [Dispose()](#M-eClearSdk-eClearSdkNonDisposable-Dispose 'eClearSdk.eClearSdkNonDisposable.Dispose')
   - [Teardown()](#M-eClearSdk-eClearSdkNonDisposable-Teardown 'eClearSdk.eClearSdkNonDisposable.Teardown')
 - [eClearSearchByExternalIdRequestItem](#T-eClearSdk-v1-PersonManagement-Query-eClearSearchByExternalIdRequestItem 'eClearSdk.v1.PersonManagement.Query.eClearSearchByExternalIdRequestItem')
-  - [RoutingKey](#F-eClearSdk-v1-PersonManagement-Query-eClearSearchByExternalIdRequestItem-RoutingKey 'eClearSdk.v1.PersonManagement.Query.eClearSearchByExternalIdRequestItem.RoutingKey')
   - [IncludePhoto](#P-eClearSdk-v1-PersonManagement-Query-eClearSearchByExternalIdRequestItem-IncludePhoto 'eClearSdk.v1.PersonManagement.Query.eClearSearchByExternalIdRequestItem.IncludePhoto')
   - [Key](#P-eClearSdk-v1-PersonManagement-Query-eClearSearchByExternalIdRequestItem-Key 'eClearSdk.v1.PersonManagement.Query.eClearSearchByExternalIdRequestItem.Key')
   - [Value](#P-eClearSdk-v1-PersonManagement-Query-eClearSearchByExternalIdRequestItem-Value 'eClearSdk.v1.PersonManagement.Query.eClearSearchByExternalIdRequestItem.Value')
@@ -153,7 +147,6 @@
   - [NoSubmission](#F-eClearSdk-v1-Face-ePassReportResult-NoSubmission 'eClearSdk.v1.Face.ePassReportResult.NoSubmission')
   - [Pass](#F-eClearSdk-v1-Face-ePassReportResult-Pass 'eClearSdk.v1.Face.ePassReportResult.Pass')
 - [ePassResultItem](#T-eClearSdk-v1-ePass-ePassResultItem 'eClearSdk.v1.ePass.ePassResultItem')
-  - [RoutingKey](#F-eClearSdk-v1-ePass-ePassResultItem-RoutingKey 'eClearSdk.v1.ePass.ePassResultItem.RoutingKey')
   - [DateTimeUtc](#P-eClearSdk-v1-ePass-ePassResultItem-DateTimeUtc 'eClearSdk.v1.ePass.ePassResultItem.DateTimeUtc')
   - [Email](#P-eClearSdk-v1-ePass-ePassResultItem-Email 'eClearSdk.v1.ePass.ePassResultItem.Email')
   - [FirstName](#P-eClearSdk-v1-ePass-ePassResultItem-FirstName 'eClearSdk.v1.ePass.ePassResultItem.FirstName')
@@ -847,20 +840,6 @@ eClearSdk.v1.Face
 
 Container class for faces that are detected with the eClear service
 
-<a name='F-eClearSdk-v1-Face-eClearFaceItem-BusType'></a>
-### BusType `constants`
-
-##### Summary
-
-Bus type for this message
-
-<a name='F-eClearSdk-v1-Face-eClearFaceItem-RoutingKey'></a>
-### RoutingKey `constants`
-
-##### Summary
-
-Routing Key for this message
-
 <a name='P-eClearSdk-v1-Face-eClearFaceItem-Attributes'></a>
 ### Attributes `property`
 
@@ -918,36 +897,6 @@ it in this array.
 
 Server information where the data originated from
 
-<a name='M-eClearSdk-v1-Face-eClearFaceItem-GenerateGlobalRoutingKey'></a>
-### GenerateGlobalRoutingKey() `method`
-
-##### Summary
-
-Generate a global routing key
-
-##### Returns
-
-
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-eClearSdk-v1-Face-eClearFaceItem-GenerateRoutingKey'></a>
-### GenerateRoutingKey() `method`
-
-##### Summary
-
-Generate the routing key
-
-##### Returns
-
-
-
-##### Parameters
-
-This method has no parameters.
-
 <a name='T-eClearSdk-v1-PersonManagement-eClearFacePhotoItem'></a>
 ## eClearFacePhotoItem `type`
 
@@ -977,13 +926,6 @@ eClearSdk.v1.PersonManagement.Query
 
 Request container for getting all external ids associated to a external id name.
 Can be used to find if a user is already added to the database by ID
-
-<a name='F-eClearSdk-v1-PersonManagement-Query-eClearGetAllByExternalIdKeyRequestItem-RoutingKey'></a>
-### RoutingKey `constants`
-
-##### Summary
-
-Routing key for the bus
 
 <a name='P-eClearSdk-v1-PersonManagement-Query-eClearGetAllByExternalIdKeyRequestItem-Key'></a>
 ### Key `property`
@@ -1560,13 +1502,6 @@ eClearSdk.v1.PersonManagement.Query
 
 Search Request to get an eClear person object.
 
-<a name='F-eClearSdk-v1-PersonManagement-Query-eClearSearchByExternalIdRequestItem-RoutingKey'></a>
-### RoutingKey `constants`
-
-##### Summary
-
-Routing key for the bus
-
 <a name='P-eClearSdk-v1-PersonManagement-Query-eClearSearchByExternalIdRequestItem-IncludePhoto'></a>
 ### IncludePhoto `property`
 
@@ -1716,13 +1651,6 @@ eClearSdk.v1.ePass
 ##### Summary
 
 Normalized eConnect ePass Result used within the eClear system if enabled
-
-<a name='F-eClearSdk-v1-ePass-ePassResultItem-RoutingKey'></a>
-### RoutingKey `constants`
-
-##### Summary
-
-Routing Key for this message
 
 <a name='P-eClearSdk-v1-ePass-ePassResultItem-DateTimeUtc'></a>
 ### DateTimeUtc `property`
