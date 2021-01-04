@@ -155,6 +155,7 @@
   - [Pass](#P-eClearSdk-v1-ePass-ePassResultItem-Pass 'eClearSdk.v1.ePass.ePassResultItem.Pass')
   - [PersonId](#P-eClearSdk-v1-ePass-ePassResultItem-PersonId 'eClearSdk.v1.ePass.ePassResultItem.PersonId')
   - [ReferenceId](#P-eClearSdk-v1-ePass-ePassResultItem-ReferenceId 'eClearSdk.v1.ePass.ePassResultItem.ReferenceId')
+  - [ServerInfo](#P-eClearSdk-v1-ePass-ePassResultItem-ServerInfo 'eClearSdk.v1.ePass.ePassResultItem.ServerInfo')
 
 <a name='T-eClearSdk-Common-IOptional'></a>
 ## IOptional `type`
@@ -1713,3 +1714,10 @@ The Person ID associated to the default external ID in the eClear system
 ##### Summary
 
 The reference ID of the remote report. This can be used for lookups within the 3rd party application
+
+<a name='P-eClearSdk-v1-ePass-ePassResultItem-ServerInfo'></a>
+### ServerInfo `property`
+
+##### Summary
+
+Information from the server that published the information
